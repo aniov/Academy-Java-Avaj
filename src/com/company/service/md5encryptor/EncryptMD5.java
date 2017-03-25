@@ -60,4 +60,5 @@ public class EncryptMD5 {
         }
         return stringBuilder.toString();
     }
+
 }

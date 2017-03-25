@@ -26,9 +26,9 @@ public class ValidateAndCreate {
     private int latitude;
     private int height;
 
-    public ValidateAndCreate(List<String> inputLines, List<Flyable> flyables) {
+    public ValidateAndCreate(List<String> inputLines) {
         this.inputLines = inputLines;
-        this.flyables = flyables;
+        flyables = new ArrayList<>();
     }
 
     public boolean fileIsValid(){
@@ -43,7 +43,11 @@ public class ValidateAndCreate {
         inputMD5DecodedLines = new ArrayList<>();
         EncryptMD5 encryptMD5 = new EncryptMD5();
 
+        if (! checkIfStringIsMD5Length(inputLines.get(0))) {
+            return false;
+        }
         String firstLine = encryptMD5.getIntegerValues(inputLines.get(0));
+
         inputMD5DecodedLines.add(firstLine);
 
         ListIterator<String> iterator = inputLines.listIterator();
@@ -51,6 +55,9 @@ public class ValidateAndCreate {
 
         while (iterator.hasNext()){
             String[] elements = iterator.next().split("\\s+");
+            if (! checkIfLineIsMD5Length(elements)) {
+                return false;
+            }
             if (elements.length != 5){
                 System.out.println("Invalid number of parameters for line: " + iterator.nextIndex());
                 return false;
@@ -134,7 +141,30 @@ public class ValidateAndCreate {
         return true;
     }
 
+    private boolean checkIfStringIsMD5Length(String str) {
+
+        if (str.length() == 32){
+            return true;
+        }
+        return false;
+    }
+
+    private boolean checkIfLineIsMD5Length(String[] line ) {
+
+        for (String string : line) {
+            if (! checkIfStringIsMD5Length(string)){
+                return false;
+            }
+        }
+        return true;
+
+    }
+
     public int getTimesWeatherChanges() {
         return timesWeatherChanges;
+    }
+
+    public List<Flyable> getFlyables() {
+        return flyables;
     }
 }
