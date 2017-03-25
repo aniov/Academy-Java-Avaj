@@ -22,10 +22,7 @@ public class AvajLauncher {
 
         ValidateAndCreate validateAndCreate = new ValidateAndCreate(inputLines);
 
-        if (inputLines.isEmpty() || !validateAndCreate.fileIsValid()) {
-            System.out.println("input file is not valid");
-            return;
-        }
+        exitIfIsNotValid(inputLines, validateAndCreate);
 
         WeatherTower weatherTower = new WeatherTower();
 
@@ -35,6 +32,13 @@ public class AvajLauncher {
 
         FileManager.write();
 
+    }
+
+    private static void exitIfIsNotValid(List<String> inputLines, ValidateAndCreate validateAndCreate) {
+        if (inputLines.isEmpty() || !validateAndCreate.fileIsValid()) {
+            System.out.println("input file is not valid");
+            System.exit(1);
+        }
     }
 
     private static void changeWeather(int timesWeatherChanges, WeatherTower weatherTower) {

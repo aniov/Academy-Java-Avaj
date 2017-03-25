@@ -12,6 +12,8 @@ public class WeatherProvider {
 
     private static WeatherProvider weatherProvider = new WeatherProvider();
 
+    private static String[] weather; /** Using an ENUM: WeatherType*/
+
     private WeatherProvider() {
     }
 
