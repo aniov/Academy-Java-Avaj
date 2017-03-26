@@ -10,6 +10,10 @@ public class AircraftMessages {
 
     private static AircraftMessages aircraftMessages = new AircraftMessages();
 
+    private Map<String, String> baloonMessages = new HashMap<>();
+    private Map<String, String> helicopterMessages = new HashMap<>();
+    private Map<String, String> jetPlaneMessages = new HashMap<>();
+
     private AircraftMessages() {
         setMessages();
     }
@@ -21,19 +25,12 @@ public class AircraftMessages {
     public Map<String, String> getHelicopterMessages(){
         return helicopterMessages;
     }
-
     public Map<String, String> getJetPlaneMessages(){
         return jetPlaneMessages;
     }
-
     public Map<String, String> getBaloonMessages(){
         return baloonMessages;
     }
-
-
-    private Map<String, String> baloonMessages = new HashMap<>();
-    private Map<String, String> helicopterMessages = new HashMap<>();
-    private Map<String, String> jetPlaneMessages = new HashMap<>();
 
     private void setMessages(){
 

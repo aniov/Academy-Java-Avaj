@@ -15,7 +15,11 @@ public class Coordinates {
     public Coordinates(int longitude, int latitude, int height) {
         this.longitude = longitude;
         this.latitude = latitude;
-        this.height = height;
+        if (height > MAX_HEIGHT){
+            this.height = MAX_HEIGHT;
+        } else {
+            this.height = height;
+        }
     }
 
     public int getLongitude() {

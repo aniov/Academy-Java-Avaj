@@ -7,6 +7,7 @@ import com.company.exceptions.MyNumberFormatException;
 import com.company.exceptions.MyTypeAndNameException;
 import com.company.service.md5encryptor.EncryptMD5;
 
+import javax.print.PrintException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.ListIterator;
