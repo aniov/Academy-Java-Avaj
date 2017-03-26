@@ -32,7 +32,16 @@ public class ValidateAndCreate {
     }
 
     public boolean fileIsValid(){
-        if (entriesAreValid(inputLines) || md5EntriesAreValid()){
+        if (! entriesAreEmpty() && (entriesAreValid(inputLines) || md5EntriesAreValid())){
+            return true;
+        }
+        return false;
+    }
+
+    private boolean entriesAreEmpty() {
+
+        if (inputLines.size() < 2){
+            System.out.println("Cannot find any Flyables to create, in scenario.txt file");
             return true;
         }
         return false;
@@ -100,7 +109,7 @@ public class ValidateAndCreate {
             String line = iterator.next();
 
             try {
-                if (validateLine(line, iterator.nextIndex() + 1)){
+                if (validateLine(line, iterator.nextIndex())){
                     Flyable flyable = AircraftFactory.newAircraft(type, name, longitude, latitude, height);
                     flyables.add(flyable);
                 }
@@ -116,6 +125,7 @@ public class ValidateAndCreate {
     private boolean validateLine(String line, int lineNr) throws MyNumberFormatException, MyTypeAndNameException {
 
         String[] elements = line.split("\\s+");
+
         if (elements.length != 5){
             System.out.println("Invalid number of parameters for line: " + lineNr);
             return false;

@@ -22,7 +22,7 @@ public class AvajLauncher {
 
         ValidateAndCreate validateAndCreate = new ValidateAndCreate(inputLines);
 
-        exitIfIsNotValid(inputLines, validateAndCreate);
+        exitIfIsNotValid(validateAndCreate);
 
         WeatherTower weatherTower = new WeatherTower();
 
@@ -34,8 +34,8 @@ public class AvajLauncher {
 
     }
 
-    private static void exitIfIsNotValid(List<String> inputLines, ValidateAndCreate validateAndCreate) {
-        if (inputLines.isEmpty() || !validateAndCreate.fileIsValid()) {
+    private static void exitIfIsNotValid(ValidateAndCreate validateAndCreate) {
+        if (! validateAndCreate.fileIsValid()) {
             System.out.println("input file is not valid");
             System.exit(1);
         }
