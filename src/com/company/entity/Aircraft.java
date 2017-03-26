@@ -1,7 +1,5 @@
 package com.company.entity;
 
-import com.company.Coordinates;
-
 import java.util.HashMap;
 import java.util.Map;
 

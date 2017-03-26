@@ -1,5 +1,6 @@
 package com.company;
 
+import com.company.entity.Flyable;
 import com.company.filehandler.FileManager;
 import com.company.service.ValidateAndCreate;
 

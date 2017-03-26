@@ -1,10 +1,7 @@
-package com.company.entity;
+package com.company.entity.model;
 
-import com.company.Coordinates;
-import com.company.Flyable;
-import com.company.entity.Baloon;
-import com.company.entity.Helicopter;
-import com.company.entity.JetPlane;
+import com.company.entity.Coordinates;
+import com.company.entity.Flyable;
 
 /**
  * Created by Marius on 3/8/2017.

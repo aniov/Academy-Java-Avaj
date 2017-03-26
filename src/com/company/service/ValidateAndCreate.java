@@ -1,13 +1,12 @@
 package com.company.service;
 
-import com.company.Flyable;
+import com.company.entity.Flyable;
 import com.company.entity.AirCraftType;
-import com.company.entity.AircraftFactory;
+import com.company.entity.model.AircraftFactory;
 import com.company.exceptions.MyNumberFormatException;
 import com.company.exceptions.MyTypeAndNameException;
 import com.company.service.md5encryptor.EncryptMD5;
 
-import javax.print.PrintException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.ListIterator;

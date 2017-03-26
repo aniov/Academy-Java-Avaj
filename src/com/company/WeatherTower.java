@@ -1,5 +1,7 @@
 package com.company;
 
+import com.company.entity.Coordinates;
+import com.company.entity.Tower;
 import com.company.service.WeatherProvider;
 
 /**

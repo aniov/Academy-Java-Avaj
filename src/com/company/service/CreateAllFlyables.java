@@ -1,7 +1,7 @@
 package com.company.service;
 
-import com.company.entity.AircraftFactory;
-import com.company.Flyable;
+import com.company.entity.model.AircraftFactory;
+import com.company.entity.Flyable;
 
 import java.util.ArrayList;
 import java.util.List;

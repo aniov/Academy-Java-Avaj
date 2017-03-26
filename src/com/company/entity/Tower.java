@@ -1,5 +1,6 @@
-package com.company;
+package com.company.entity;
 
+import com.company.entity.Flyable;
 import com.company.filehandler.FileManager;
 
 import java.util.List;

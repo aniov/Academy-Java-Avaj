@@ -1,4 +1,4 @@
-package com.company;
+package com.company.entity;
 
 /**
  * Created by Marius on 3/8/2017.

@@ -1,6 +1,7 @@
-package com.company.entity;
+package com.company.entity.model;
 
 import com.company.*;
+import com.company.entity.*;
 import com.company.filehandler.FileManager;
 import com.company.service.AircraftMessages;
 

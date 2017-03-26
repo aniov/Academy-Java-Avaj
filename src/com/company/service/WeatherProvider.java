@@ -1,6 +1,6 @@
 package com.company.service;
 
-import com.company.Coordinates;
+import com.company.entity.Coordinates;
 import com.company.entity.WeatherType;
 
 import java.util.Random;
@@ -23,7 +23,7 @@ public class WeatherProvider {
 
     public String getCurrentWeather(Coordinates coordinates) {
 
-        long sum = (coordinates.getLongitude() + coordinates.getLatitude() + coordinates.getHeight() + new Random().nextInt(3));
+        long sum = (coordinates.getLongitude() + coordinates.getLatitude() + coordinates.getHeight() + new Random().nextInt(3) + 1);
         return WeatherType.values()[(int)(Math.abs(sum) % 4)].name();
     }
 
