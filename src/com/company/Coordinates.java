@@ -8,6 +8,9 @@ public class Coordinates {
     private int longitude;
     private int latitude;
     private int height;
+    private final int MAX_HEIGHT = 100;
+    private final int MIN_HEIGHT = 0;
+
 
     public Coordinates(int longitude, int latitude, int height) {
         this.longitude = longitude;
@@ -45,10 +48,10 @@ public class Coordinates {
             latitude += d_lat;
         }
 
-        if (height + d_h > 100){
-            height = 100;
-        } else if (height + d_h < 0){
-            height = 0;
+        if (height + d_h > MAX_HEIGHT){
+            height = MAX_HEIGHT;
+        } else if (height + d_h < MIN_HEIGHT){
+            height = MIN_HEIGHT;
         } else {
             height += d_h;
         }

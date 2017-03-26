@@ -144,8 +144,8 @@ public class ValidateAndCreate {
         if (longitude < 0 || latitude < 0 || height < 0){
             throw new MyNumberFormatException("Coordinate are negative");
         }
-        if (!type.equals(AirCraftType.BALOON.getType()) && !type.equals(AirCraftType.HELICOPTER.getType())
-                && !type.equals(AirCraftType.JETPLANE.getType())){
+        if (! AirCraftType.BALOON.getType().equals(type) && ! AirCraftType.HELICOPTER.getType().equals(type)
+                && ! AirCraftType.JETPLANE.getType().equals(type)){
             throw new MyTypeAndNameException("Type is not valid");
         }
         return true;

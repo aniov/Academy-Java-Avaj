@@ -24,7 +24,7 @@ public class WeatherProvider {
     public String getCurrentWeather(Coordinates coordinates) {
 
         long sum = (coordinates.getLongitude() + coordinates.getLatitude() + coordinates.getHeight() + new Random().nextInt(3));
-        return WeatherType.values()[(int)(sum % 4)].name();
+        return WeatherType.values()[(int)(Math.abs(sum) % 4)].name();
     }
 
 }
