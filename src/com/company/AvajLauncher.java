@@ -7,8 +7,11 @@ import com.company.service.ValidateAndCreate;
 import java.util.List;
 
 /**
+ * Compile using:
  * $find -name *.java > sources.txt
  * $javac -sourcepath @sources.txt
+ * Run:
+ * $java name source.txt
  */
 
 
@@ -18,19 +21,19 @@ public class AvajLauncher {
         if (args.length != 1) {
             return;
         }
-
+        /** Read from input file*/
         List<String> inputLines = FileManager.read(args[0]);
 
         ValidateAndCreate validateAndCreate = new ValidateAndCreate(inputLines);
-
+        /** Check the file if is valid, if Yes we can continue, if No we exit the program*/
         exitIfIsNotValid(validateAndCreate);
 
         WeatherTower weatherTower = new WeatherTower();
-
+        /** Create flyable objects, register them the the Subject (Tower) list, set too all of them same weatherTower instance*/
         registerFlyables(validateAndCreate.getFlyables(), weatherTower);
-
+        /** Change the weather as many times as we read from the input file*/
         changeWeather(validateAndCreate.getTimesWeatherChanges(), weatherTower);
-
+        /** Write all the messages from Tower, Aircraft's, in the output file*/
         FileManager.write();
 
     }
