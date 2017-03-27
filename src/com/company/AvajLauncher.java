@@ -12,6 +12,13 @@ import java.util.List;
  * $javac -sourcepath @sources.txt
  * Run:
  * $java name source.txt
+ *
+ * find . -name \*.java > sources.txt
+ * javac -sourcepath . @sources.txt
+ * Run:
+ * java -classpath . com.company.AvajLaucher scenario.txt
+ *
+ *
  */
 
 
