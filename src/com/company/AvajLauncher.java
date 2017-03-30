@@ -16,11 +16,10 @@ import java.util.List;
  * find . -name \*.java > sources.txt
  * javac -sourcepath . @sources.txt
  * Run:
- * java -classpath . com.company.AvajLaucher scenario.txt
+ * java -classpath . com.company.AvajLauncher scenario.txt
  *
  *
  */
-
 
 public class AvajLauncher {
 
