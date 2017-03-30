@@ -32,7 +32,7 @@ public class ValidateAndCreate {
     }
 
     public boolean fileIsValid(){
-        if (! entriesAreEmpty() && (entriesAreValid(inputLines) || md5EntriesAreValid())){
+        if (! entriesAreEmpty() && (entriesAreValid(inputLines) || md5EntriesAreValid())) {
             return true;
         }
         return false;
@@ -112,6 +112,8 @@ public class ValidateAndCreate {
                 if (validateLine(line, iterator.nextIndex())){
                     Flyable flyable = AircraftFactory.newAircraft(type, name, longitude, latitude, height);
                     flyables.add(flyable);
+                } else {
+                    return false;
                 }
             } catch (MyNumberFormatException | MyTypeAndNameException e) {
                 System.out.println(e);
