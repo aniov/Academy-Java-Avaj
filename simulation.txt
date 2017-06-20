@@ -8,186 +8,151 @@ Tower says: Baloon#B3(7) registered to weather tower.
 Tower says: JetPlane#J2(8) registered to weather tower.
 Tower says: Helicopter#H4(9) registered to weather tower.
 Baloon#B1(1): So cold now, I'm freezing.
-Baloon#B2(2): So cold now, I'm freezing.
-JetPlane#J1(3): I hope we can escape this rain.
-Helicopter#H1(4): I love when it rains.
-Helicopter#H2(5): Sun is for pussies, but I love it.
-Helicopter#H3(6): I love when it rains.
-Baloon#B3(7): Lovely sunny day.
-JetPlane#J2(8): We are going down!!! Mayday Mayday!!!
-Helicopter#H4(9): I love when it rains.
-Baloon#B1(1): I can't see anything, this fog is so bad.
 Baloon#B2(2): So beautiful when it rains, let's keep flying.
 JetPlane#J1(3): I hope we can escape this rain.
-Helicopter#H1(4): Now we are in trouble, we have snow on windows.
-Helicopter#H2(5): I love when it rains.
+Helicopter#H1(4): Flying in fog it's not for faint of heart.
+Helicopter#H2(5): Now we are in trouble, we have snow on windows.
+Helicopter#H3(6): Flying in fog it's not for faint of heart.
+Baloon#B3(7): So cold now, I'm freezing.
+JetPlane#J2(8): Full throttle to the sun.
+Helicopter#H4(9): I love when it rains.
+Baloon#B1(1): I can't see anything, this fog is so bad.
+Baloon#B2(2): So cold now, I'm freezing.
+JetPlane#J1(3): Going really slow in fog.
+Helicopter#H1(4): Flying in fog it's not for faint of heart.
+Helicopter#H2(5): Now we are in trouble, we have snow on windows.
 Helicopter#H3(6): Now we are in trouble, we have snow on windows.
 Baloon#B3(7): Lovely sunny day.
-JetPlane#J2(8): I hope we can escape this rain.
+JetPlane#J2(8): Full throttle to the sun.
 Helicopter#H4(9): Now we are in trouble, we have snow on windows.
-Baloon#B1(1): Lovely sunny day.
+Baloon#B1(1): So cold now, I'm freezing.
+Baloon#B1(1) landing.
+Tower says: Baloon#B1(1) unregistered from weather tower.
 Baloon#B2(2): So beautiful when it rains, let's keep flying.
-JetPlane#J1(3): I hope we can escape this rain.
+JetPlane#J1(3): We are going down!!! Mayday Mayday!!!
 Helicopter#H1(4): Now we are in trouble, we have snow on windows.
-Helicopter#H2(5): I love when it rains.
-Helicopter#H3(6): Flying in fog it's not for faint of heart.
-Baloon#B3(7): Lovely sunny day.
-JetPlane#J2(8): Going really slow in fog.
+Helicopter#H2(5): Sun is for pussies, but I love it.
+Helicopter#H3(6): Now we are in trouble, we have snow on windows.
+Baloon#B3(7): So cold now, I'm freezing.
+JetPlane#J2(8): Full throttle to the sun.
 Helicopter#H4(9): I love when it rains.
-Baloon#B1(1): I can't see anything, this fog is so bad.
-Baloon#B2(2): Lovely sunny day.
-JetPlane#J1(3): Going really slow in fog.
+Baloon#B2(2): So cold now, I'm freezing.
+JetPlane#J1(3): Full throttle to the sun.
 Helicopter#H1(4): Now we are in trouble, we have snow on windows.
-Helicopter#H2(5): Flying in fog it's not for faint of heart.
-Helicopter#H3(6): Sun is for pussies, but I love it.
-Baloon#B3(7): Lovely sunny day.
-JetPlane#J2(8): I hope we can escape this rain.
-Helicopter#H4(9): Sun is for pussies, but I love it.
-Baloon#B1(1): Lovely sunny day.
-Baloon#B2(2): I can't see anything, this fog is so bad.
-JetPlane#J1(3): I hope we can escape this rain.
-Helicopter#H1(4): I love when it rains.
 Helicopter#H2(5): Now we are in trouble, we have snow on windows.
-Helicopter#H3(6): I love when it rains.
-Baloon#B3(7): Lovely sunny day.
+Helicopter#H3(6): Flying in fog it's not for faint of heart.
+Baloon#B3(7): So cold now, I'm freezing.
+Baloon#B3(7) landing.
+Tower says: Baloon#B3(7) unregistered from weather tower.
 JetPlane#J2(8): Going really slow in fog.
 Helicopter#H4(9): Now we are in trouble, we have snow on windows.
-Baloon#B1(1): So beautiful when it rains, let's keep flying.
 Baloon#B2(2): So cold now, I'm freezing.
+JetPlane#J1(3): Going really slow in fog.
+Helicopter#H1(4): Sun is for pussies, but I love it.
+Helicopter#H2(5): I love when it rains.
+Helicopter#H3(6): I love when it rains.
+JetPlane#J2(8): We are going down!!! Mayday Mayday!!!
+Helicopter#H4(9): Sun is for pussies, but I love it.
+Baloon#B2(2): So beautiful when it rains, let's keep flying.
+JetPlane#J1(3): We are going down!!! Mayday Mayday!!!
+Helicopter#H1(4): Now we are in trouble, we have snow on windows.
+Helicopter#H2(5): Sun is for pussies, but I love it.
+Helicopter#H3(6): Flying in fog it's not for faint of heart.
+JetPlane#J2(8): Full throttle to the sun.
+Helicopter#H4(9): Now we are in trouble, we have snow on windows.
+Baloon#B2(2): So beautiful when it rains, let's keep flying.
 JetPlane#J1(3): Full throttle to the sun.
 Helicopter#H1(4): Now we are in trouble, we have snow on windows.
 Helicopter#H1(4) landing.
 Tower says: Helicopter#H1(4) unregistered from weather tower.
-Helicopter#H2(5): Flying in fog it's not for faint of heart.
-Helicopter#H3(6): Flying in fog it's not for faint of heart.
-Baloon#B3(7): Lovely sunny day.
-JetPlane#J2(8): I hope we can escape this rain.
-Helicopter#H4(9): Now we are in trouble, we have snow on windows.
-Baloon#B1(1): Lovely sunny day.
-Baloon#B2(2): Lovely sunny day.
-JetPlane#J1(3): I hope we can escape this rain.
-Helicopter#H2(5): Now we are in trouble, we have snow on windows.
-Helicopter#H3(6): Flying in fog it's not for faint of heart.
-Baloon#B3(7): I can't see anything, this fog is so bad.
-JetPlane#J2(8): I hope we can escape this rain.
-Helicopter#H4(9): Flying in fog it's not for faint of heart.
-Baloon#B1(1): I can't see anything, this fog is so bad.
-Baloon#B2(2): So beautiful when it rains, let's keep flying.
-JetPlane#J1(3): I hope we can escape this rain.
-Helicopter#H2(5): I love when it rains.
-Helicopter#H3(6): Sun is for pussies, but I love it.
-Baloon#B3(7): Lovely sunny day.
-JetPlane#J2(8): Going really slow in fog.
-Helicopter#H4(9): Sun is for pussies, but I love it.
-Baloon#B1(1): I can't see anything, this fog is so bad.
-Baloon#B1(1) landing.
-Tower says: Baloon#B1(1) unregistered from weather tower.
-Baloon#B2(2): So beautiful when it rains, let's keep flying.
-JetPlane#J1(3): Full throttle to the sun.
-Helicopter#H2(5): I love when it rains.
-Helicopter#H3(6): Flying in fog it's not for faint of heart.
-Baloon#B3(7): So beautiful when it rains, let's keep flying.
-JetPlane#J2(8): Full throttle to the sun.
-Helicopter#H4(9): I love when it rains.
-Baloon#B2(2): So cold now, I'm freezing.
-JetPlane#J1(3): We are going down!!! Mayday Mayday!!!
-Helicopter#H2(5): Flying in fog it's not for faint of heart.
+Helicopter#H2(5): Sun is for pussies, but I love it.
 Helicopter#H3(6): I love when it rains.
-Baloon#B3(7): I can't see anything, this fog is so bad.
-JetPlane#J2(8): We are going down!!! Mayday Mayday!!!
-Helicopter#H4(9): Sun is for pussies, but I love it.
-Baloon#B2(2): Lovely sunny day.
-JetPlane#J1(3): I hope we can escape this rain.
-Helicopter#H2(5): Flying in fog it's not for faint of heart.
-Helicopter#H3(6): Sun is for pussies, but I love it.
-Baloon#B3(7): I can't see anything, this fog is so bad.
-JetPlane#J2(8): I hope we can escape this rain.
-Helicopter#H4(9): I love when it rains.
-Baloon#B2(2): So beautiful when it rains, let's keep flying.
-JetPlane#J1(3): I hope we can escape this rain.
-Helicopter#H2(5): Sun is for pussies, but I love it.
-Helicopter#H3(6): Flying in fog it's not for faint of heart.
-Baloon#B3(7): So cold now, I'm freezing.
-JetPlane#J2(8): Full throttle to the sun.
-Helicopter#H4(9): I love when it rains.
-Baloon#B2(2): I can't see anything, this fog is so bad.
-JetPlane#J1(3): I hope we can escape this rain.
-Helicopter#H2(5): Sun is for pussies, but I love it.
-Helicopter#H3(6): Flying in fog it's not for faint of heart.
-Baloon#B3(7): So beautiful when it rains, let's keep flying.
-JetPlane#J2(8): I hope we can escape this rain.
+JetPlane#J2(8): Going really slow in fog.
 Helicopter#H4(9): Flying in fog it's not for faint of heart.
-Baloon#B2(2): So cold now, I'm freezing.
-Baloon#B2(2) landing.
-Tower says: Baloon#B2(2) unregistered from weather tower.
-JetPlane#J1(3): Full throttle to the sun.
-Helicopter#H2(5): I love when it rains.
-Helicopter#H3(6): Flying in fog it's not for faint of heart.
-Baloon#B3(7): Lovely sunny day.
-JetPlane#J2(8): Going really slow in fog.
-Helicopter#H4(9): Now we are in trouble, we have snow on windows.
-JetPlane#J1(3): We are going down!!! Mayday Mayday!!!
-Helicopter#H2(5): I love when it rains.
-Helicopter#H3(6): Sun is for pussies, but I love it.
-Baloon#B3(7): Lovely sunny day.
-JetPlane#J2(8): We are going down!!! Mayday Mayday!!!
-Helicopter#H4(9): Sun is for pussies, but I love it.
-JetPlane#J1(3): Full throttle to the sun.
-Helicopter#H2(5): I love when it rains.
-Helicopter#H3(6): Sun is for pussies, but I love it.
-Baloon#B3(7): So cold now, I'm freezing.
-JetPlane#J2(8): I hope we can escape this rain.
-Helicopter#H4(9): Sun is for pussies, but I love it.
-JetPlane#J1(3): I hope we can escape this rain.
-Helicopter#H2(5): Now we are in trouble, we have snow on windows.
-Helicopter#H3(6): Sun is for pussies, but I love it.
-Baloon#B3(7): Lovely sunny day.
-JetPlane#J2(8): Full throttle to the sun.
-Helicopter#H4(9): Sun is for pussies, but I love it.
-JetPlane#J1(3): I hope we can escape this rain.
-Helicopter#H2(5): Now we are in trouble, we have snow on windows.
-Helicopter#H3(6): Now we are in trouble, we have snow on windows.
-Baloon#B3(7): I can't see anything, this fog is so bad.
-JetPlane#J2(8): Going really slow in fog.
-Helicopter#H4(9): I love when it rains.
+Baloon#B2(2): Lovely sunny day.
 JetPlane#J1(3): Going really slow in fog.
 Helicopter#H2(5): Sun is for pussies, but I love it.
-Helicopter#H3(6): Sun is for pussies, but I love it.
-Baloon#B3(7): Lovely sunny day.
-JetPlane#J2(8): I hope we can escape this rain.
-Helicopter#H4(9): Sun is for pussies, but I love it.
-JetPlane#J1(3): Full throttle to the sun.
+Helicopter#H3(6): Flying in fog it's not for faint of heart.
+JetPlane#J2(8): Full throttle to the sun.
+Helicopter#H4(9): I love when it rains.
+Baloon#B2(2): So beautiful when it rains, let's keep flying.
+Baloon#B2(2) landing.
+Tower says: Baloon#B2(2) unregistered from weather tower.
+JetPlane#J1(3): I hope we can escape this rain.
 Helicopter#H2(5): Sun is for pussies, but I love it.
 Helicopter#H3(6): I love when it rains.
-Baloon#B3(7): I can't see anything, this fog is so bad.
-JetPlane#J2(8): Going really slow in fog.
+JetPlane#J2(8): Full throttle to the sun.
 Helicopter#H4(9): I love when it rains.
-JetPlane#J1(3): Full throttle to the sun.
-Helicopter#H2(5): Flying in fog it's not for faint of heart.
-Helicopter#H3(6): Sun is for pussies, but I love it.
-Baloon#B3(7): So beautiful when it rains, let's keep flying.
-JetPlane#J2(8): We are going down!!! Mayday Mayday!!!
-Helicopter#H4(9): Now we are in trouble, we have snow on windows.
-JetPlane#J1(3): Full throttle to the sun.
+JetPlane#J1(3): Going really slow in fog.
 Helicopter#H2(5): I love when it rains.
 Helicopter#H3(6): Sun is for pussies, but I love it.
-Baloon#B3(7): Lovely sunny day.
 JetPlane#J2(8): I hope we can escape this rain.
+Helicopter#H4(9): Now we are in trouble, we have snow on windows.
+JetPlane#J1(3): I hope we can escape this rain.
+Helicopter#H2(5): I love when it rains.
+Helicopter#H3(6): Sun is for pussies, but I love it.
+JetPlane#J2(8): Full throttle to the sun.
+Helicopter#H4(9): Flying in fog it's not for faint of heart.
+JetPlane#J1(3): Going really slow in fog.
+Helicopter#H2(5): Sun is for pussies, but I love it.
+Helicopter#H3(6): Flying in fog it's not for faint of heart.
+JetPlane#J2(8): We are going down!!! Mayday Mayday!!!
+Helicopter#H4(9): Sun is for pussies, but I love it.
+JetPlane#J1(3): I hope we can escape this rain.
+Helicopter#H2(5): Sun is for pussies, but I love it.
+Helicopter#H3(6): I love when it rains.
+JetPlane#J2(8): Full throttle to the sun.
 Helicopter#H4(9): Now we are in trouble, we have snow on windows.
 Helicopter#H4(9) landing.
 Tower says: Helicopter#H4(9) unregistered from weather tower.
 JetPlane#J1(3): Going really slow in fog.
-Helicopter#H2(5): Sun is for pussies, but I love it.
+Helicopter#H2(5): Flying in fog it's not for faint of heart.
 Helicopter#H3(6): Sun is for pussies, but I love it.
-Baloon#B3(7): Lovely sunny day.
-JetPlane#J2(8): I hope we can escape this rain.
-JetPlane#J1(3): I hope we can escape this rain.
-Helicopter#H2(5): I love when it rains.
-Helicopter#H3(6): I love when it rains.
-Baloon#B3(7): So beautiful when it rains, let's keep flying.
-JetPlane#J2(8): We are going down!!! Mayday Mayday!!!
+JetPlane#J2(8): Going really slow in fog.
 JetPlane#J1(3): Full throttle to the sun.
+Helicopter#H2(5): Sun is for pussies, but I love it.
+Helicopter#H3(6): Now we are in trouble, we have snow on windows.
+JetPlane#J2(8): Going really slow in fog.
+JetPlane#J1(3): We are going down!!! Mayday Mayday!!!
+Helicopter#H2(5): I love when it rains.
+Helicopter#H3(6): Sun is for pussies, but I love it.
+JetPlane#J2(8): Full throttle to the sun.
+JetPlane#J1(3): I hope we can escape this rain.
 Helicopter#H2(5): Flying in fog it's not for faint of heart.
 Helicopter#H3(6): Now we are in trouble, we have snow on windows.
-Baloon#B3(7): So cold now, I'm freezing.
+JetPlane#J2(8): Full throttle to the sun.
+JetPlane#J1(3): We are going down!!! Mayday Mayday!!!
+Helicopter#H2(5): I love when it rains.
+Helicopter#H3(6): Sun is for pussies, but I love it.
+JetPlane#J2(8): We are going down!!! Mayday Mayday!!!
+JetPlane#J1(3): Going really slow in fog.
+Helicopter#H2(5): Now we are in trouble, we have snow on windows.
+Helicopter#H3(6): Flying in fog it's not for faint of heart.
+JetPlane#J2(8): Full throttle to the sun.
+JetPlane#J1(3): I hope we can escape this rain.
+Helicopter#H2(5): Flying in fog it's not for faint of heart.
+Helicopter#H3(6): Sun is for pussies, but I love it.
+JetPlane#J2(8): We are going down!!! Mayday Mayday!!!
+JetPlane#J1(3): I hope we can escape this rain.
+Helicopter#H2(5): Sun is for pussies, but I love it.
+Helicopter#H3(6): I love when it rains.
+JetPlane#J2(8): Going really slow in fog.
+JetPlane#J1(3): Going really slow in fog.
+Helicopter#H2(5): I love when it rains.
+Helicopter#H3(6): Flying in fog it's not for faint of heart.
+JetPlane#J2(8): Going really slow in fog.
+JetPlane#J1(3): We are going down!!! Mayday Mayday!!!
+Helicopter#H2(5): I love when it rains.
+Helicopter#H3(6): Now we are in trouble, we have snow on windows.
+JetPlane#J2(8): We are going down!!! Mayday Mayday!!!
+JetPlane#J1(3): We are going down!!! Mayday Mayday!!!
+JetPlane#J1(3) landing.
+Tower says: JetPlane#J1(3) unregistered from weather tower.
+Helicopter#H2(5): Now we are in trouble, we have snow on windows.
+Helicopter#H3(6): Now we are in trouble, we have snow on windows.
 JetPlane#J2(8): I hope we can escape this rain.
+Helicopter#H2(5): Now we are in trouble, we have snow on windows.
+Helicopter#H2(5) landing.
+Tower says: Helicopter#H2(5) unregistered from weather tower.
+Helicopter#H3(6): Now we are in trouble, we have snow on windows.
+JetPlane#J2(8): Going really slow in fog.

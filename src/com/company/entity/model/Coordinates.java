@@ -1,4 +1,4 @@
-package com.company.entity;
+package com.company.entity.model;
 
 /**
  * Created by Marius on 3/8/2017.

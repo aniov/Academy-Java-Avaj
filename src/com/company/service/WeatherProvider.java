@@ -1,6 +1,6 @@
 package com.company.service;
 
-import com.company.entity.Coordinates;
+import com.company.entity.model.Coordinates;
 import com.company.entity.WeatherType;
 
 import java.util.Random;

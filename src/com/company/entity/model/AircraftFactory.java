@@ -1,6 +1,5 @@
 package com.company.entity.model;
 
-import com.company.entity.Coordinates;
 import com.company.entity.Flyable;
 
 /**
