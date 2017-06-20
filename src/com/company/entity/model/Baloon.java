@@ -14,7 +14,7 @@ public class Baloon extends Aircraft implements Flyable {
     private String currentWeather;
     private AircraftMessages aircraftMessages;
 
-    protected Baloon(String name, Coordinates coordinates) {
+    Baloon(String name, Coordinates coordinates) {
         super(name, coordinates);
         aircraftMessages = AircraftMessages.getInstance();
     }

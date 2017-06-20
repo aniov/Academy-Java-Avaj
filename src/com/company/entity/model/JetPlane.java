@@ -14,7 +14,7 @@ public class JetPlane extends Aircraft implements Flyable {
     private String currentWeather;
     private AircraftMessages aircraftMessages;
 
-    protected JetPlane(String name, Coordinates coordinates) {
+    JetPlane(String name, Coordinates coordinates) {
         super(name, coordinates);
         aircraftMessages = AircraftMessages.getInstance();
     }

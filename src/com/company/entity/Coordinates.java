@@ -12,7 +12,7 @@ public class Coordinates {
     private final int MIN_HEIGHT = 0;
 
 
-    public Coordinates(int longitude, int latitude, int height) {
+    Coordinates(int longitude, int latitude, int height) {
         this.longitude = longitude;
         this.latitude = latitude;
         if (height > MAX_HEIGHT){

@@ -14,7 +14,7 @@ public class Helicopter extends Aircraft implements Flyable {
     private String currentWeather;
     private AircraftMessages aircraftMessages;
 
-    protected Helicopter(String name, Coordinates coordinates) {
+    Helicopter(String name, Coordinates coordinates) {
         super(name, coordinates);
         aircraftMessages = AircraftMessages.getInstance();
     }
